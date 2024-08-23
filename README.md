@@ -2,8 +2,10 @@
 Application to generate customised running routes for users using third-party APIs like Google Maps 
 
 Backend Setup Guide
+
 Introduction
 This guide provides detailed instructions for setting up a Python environment for backend using FastAPI, Uvicorn, and several other packages crucial for development, security, and database interaction.
+
 Environment Setup
 1. Install Python:
 Download Python from python.org and follow the installation instructions for your operating system.
@@ -25,6 +27,7 @@ uvicorn app.main:app --reload
 The `--reload` flag enables auto-reloading of the server when code changes are made.
 2. Accessing the Application:
 Open a web browser and go to http://127.0.0.1:8000 to see the running application.
+
 Usage of Packages
 - **FastAPI**: For creating RESTful APIs with automatic Swagger documentation.
 - **Uvicorn**: ASGI server for hosting FastAPI applications.
